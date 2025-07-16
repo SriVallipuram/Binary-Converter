@@ -12,6 +12,7 @@ decimal_value = int(input("Please Enter a integer value to convert into binary :
 
 # Display the decimal value
 print(f"Your input decimal value : {decimal_value}")
+print("------------------------------------------------------")
 
 # Binary conversion Logic
 remainder_value = decimal_value%2
@@ -27,6 +28,7 @@ while decimal_value > 0:
     print("remainder_value ",remainder_value)
     print("count ",count)
     print("binary value ",bin_value)
+    print("----------------------------------------------")
 
         
     
